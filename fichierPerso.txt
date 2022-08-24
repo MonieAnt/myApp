@@ -1,0 +1,21 @@
+Création d'un fichier qui ne sera pas dans le commit de myApp.
+
+Création d'un fichier .gitignore :
+Insérer dans le fichier .gitignore le nom de fichier à ignorer.
+
+Test via git status et le fichier ne sera pas mentionné dans les "Fichiers non suivis".
+Ajout du fichier .gitignore au staging area pour que ce soit valable pour tous (lors d'un projet commun)
+via git add .gitignore
+Vérifier via git status
+
+
+Pour ignorer tout un dossier :
+myFolder/
+
+WildCard :
+aucun fichier .txt contenu dans le dossier myFolder
+myFolder/*.txt
+
+Sous-dossier compris :
+Tous les fichiers .txt du dossier myFolder et tous ces sous-dossiers.
+myFolder/**/*.txt
